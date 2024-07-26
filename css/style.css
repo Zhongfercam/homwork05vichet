@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap");
+body {
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+/* navbar */
+header {
+    height: auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    /* position: sticky;
+    top: 0; */
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .nav-brand .logo {
+    height: 50px;   
+}
+.navbar .nav-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.navbar .nav-navbar .nav-item {
+    list-style-type: none;
+}
+.navbar .nav-navbar .nav-item .nav-link {
+    text-decoration: none;
+    border: 2px solid #ffffffc0;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 30px;
+    transition: 0.3s ease-in-out all;
+    color: #9772B8;
+}
+.navbar .nav-navbar .nav-item .nav-link:hover {
+    border-bottom: 2px solid rgb(136, 133, 133);
+    color: #2B4E54;
+}
+
+/* banner */
+.banner {
+    height: 100vh;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner .sd {
+    height: 100vh;
+    background-color: #9191916b;
+}
+.banner .sd .txt1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    color: #FFFFFF;
+}
+.banner .txt2 {
+    display: flex;
+    justify-content: center;
+    bottom: 900px;
+    color: rgb(0, 0, 0);
+    margin-top: -230px;
+}
+.banner .box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bbc1c06d;
+    height: 500px;
+    align-items: center;
+    position: absolute;
+    left: 160px;
+    bottom: -250px;
+}
+.banner .box1 {
+    width: 500px;
+    height: 300px;
+    background-image: url("../img/item\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner .box2 {
+    width: 500px;
+    height: 300px;
+    background-image: url("../img/item\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box4 {
+    height: 100vh;
+    background-color: aquamarine;
+}
+.box4 .box5 {
+    height: 100vh;
+    /* background-color: #91919184; */
+}
